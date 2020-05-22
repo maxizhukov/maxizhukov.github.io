@@ -439,5 +439,9 @@ button:hover {
     -moz-transition: .1s;
 }
 
-@media
+@media (max-width: 1440px) {
+    .header-link {
+        font-size: 18px;
+    }
+}
 
