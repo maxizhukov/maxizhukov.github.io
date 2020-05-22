@@ -77,6 +77,9 @@ body {
 .videos {
     width: 100%;
 }
+.first-video {
+    transform: translateY(150px);
+}
 .videos-wrapper {
     max-width: 1440px;
     margin: 190px auto;
@@ -91,6 +94,10 @@ body {
 }
 
 /* TEXT START */
+
+.first-title {
+    margin-top: 350px;
+}
 
 .about-wrap {
     max-width: 1060px;
@@ -124,7 +131,7 @@ body {
 .button-quiz {
     display: block;
     width: 400px;
-    margin: 1680px auto 0 auto;
+    margin: 1820px auto 0 auto;
     position: absolute;
     left: 0;
     right: 0;
@@ -431,4 +438,6 @@ button:hover {
     -webkit-transition: .1s;
     -moz-transition: .1s;
 }
+
+@media
 
