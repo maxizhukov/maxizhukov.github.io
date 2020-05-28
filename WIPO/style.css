@@ -386,7 +386,7 @@ button:hover {
 }
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
-    width: 100%px;
+    width: 100%;
     position: relative;
     height: auto;
     background-color: #747479;
@@ -462,6 +462,25 @@ button:hover {
     .header-link {
         font-size: 18px;
     }
+}
+
+.link-text {
+    font-size: 22px;
+}
+
+.link-link {
+    background-color: #BDE66E;
+}
+.about-wrap-links {
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+hr {
+    border: none;
+    background-color: #747479;
+    color: #747479;
+    height: 4px;
+    border-radius: 20%;
 }
 
 
